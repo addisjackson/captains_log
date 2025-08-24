@@ -28,7 +28,7 @@ import USS_Enterprise_NX01 from '../assets/USS_Enterprise_NX01.jpg';
 import USS_Defiant from '../assets/USS_Defiant.jpg';
 
 // Support Images
-import star_trek_captains from '../assets/star-trek-captains.webp';
+import star_trek_captains1 from '../assets/star-trek-captains.webp';
 import Star_Trek_captains2 from '../assets/Star-Trek-captains2.avif';
 import star_trek_captains3 from '../assets/star-trek-captains3.avif';
 import Star_trek_captains4 from '../assets/Star-trek-captains4.jpg';
@@ -67,7 +67,7 @@ import star_trek_captains5 from '../assets/star-trek-captains5.avif';
 };
  
  const supportImages = {
-  'star-trek-captains.webp': star_trek_captains,
+  'star-trek-captains.webp': star_trek_captains1,
   'Star-Trek-captains2.avif': Star_Trek_captains2,
   'star-trek-captains3.avif': star_trek_captains3,
   'Star-trek-captains4.jpg': Star_trek_captains4,

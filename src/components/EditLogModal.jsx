@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { getLogs, saveLogs } from "../model/logStorage"; // ✅ add saveLogs to persist edits
 
 const normalizeCaptainName = (name = "") =>
   name.toLowerCase().replace(/\s+/g, "_").replace(/-/g, "");
@@ -7,11 +8,17 @@ const EditLogModal = ({ log, captain, onClose, onSave }) => {
   const [logTitle, setLogTitle] = useState(log.logTitle || "");
   const [logContent, setLogContent] = useState(log.logContent || "");
   const [location, setLocation] = useState(log.location || "");
-  const [date, setDate] = useState(log.date || new Date().toISOString().slice(0, 10));
-  const [mistakesWereMadeToday, setMistakesWereMadeToday] = useState(log.mistakesWereMadeToday || false);
+  const [date, setDate] = useState(
+    log.date || new Date().toISOString().slice(0, 10)
+  );
+  const [mistakesWereMadeToday, setMistakesWereMadeToday] = useState(
+    log.mistakesWereMadeToday || false
+  );
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // ✅ Build updated log
     const updatedLog = {
       ...log,
       logTitle,
@@ -20,7 +27,29 @@ const EditLogModal = ({ log, captain, onClose, onSave }) => {
       date,
       mistakesWereMadeToday,
     };
-    onSave({ ...updatedLog, captainEntry: captain });
+
+    // ✅ Persist change to storage
+    const logs = getLogs() || [];
+    const updatedLogs = logs.map((entry) => {
+      if (entry.captainName === captain.captainName) {
+        return {
+          ...entry,
+          logs: entry.logs.map((l) =>
+            l.id === log.id ? updatedLog : l
+          ),
+        };
+      }
+      return entry;
+    });
+
+    saveLogs(updatedLogs);
+
+    // ✅ Update parent view immediately
+    if (onSave) {
+      onSave(updatedLog);
+    }
+
+    onClose();
   };
 
   return (
@@ -70,11 +99,27 @@ const EditLogModal = ({ log, captain, onClose, onSave }) => {
             Mistakes Made Today
           </label>
 
+          <label>
+            Content:
+            <textarea
+              value={logContent}
+              onChange={(e) => setLogContent(e.target.value)}
+              className="border p-2 rounded w-full h-32"
+            />
+          </label>
+
           <div className="flex justify-end gap-3 mt-4">
-            <button type="button" onClick={onClose} className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400">
+            <button
+              type="button"
+              onClick={onClose}
+              className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
+            >
               Cancel
             </button>
-            <button type="submit" className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">
+            <button
+              type="submit"
+              className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600"
+            >
               Save
             </button>
           </div>

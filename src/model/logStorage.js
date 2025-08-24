@@ -46,7 +46,7 @@ export function getLogs() {
  * Save logs array back to localStorage
  * @param {Array} logsArray
  */
-function saveLogs(logsArray) {
+export function saveLogs(logsArray) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(logsArray));
 }
 

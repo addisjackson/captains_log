@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import { initLogs, getLogs, updateLog } from "./model/logStorage";
-
-import NavBar from "./components/NavBar";
 import LogList from "./components/LogList";
 import LogDetail from "./components/LogDetail";
 import { captainNames } from "./assets/index.js";
@@ -39,7 +37,6 @@ function App() {
 
   return (
     <>
-      <NavBar filters={filters} setFilters={setFilters} />
       <div className="container mx-auto px-4 py-6">
         <Routes>
           {/* Home: All Logs */}
