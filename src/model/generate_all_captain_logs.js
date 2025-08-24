@@ -8,7 +8,7 @@ const captains = [
   { name: 'Benjamin Sisko', ship: 'USS Defiant' },
   { name: 'Kathryn Janeway', ship: 'USS Voyager' },
   { name: 'Jonathan Archer', ship: 'Enterprise NX-01' },
-  { name: 'John T. Kirk', ship: 'USS Enterprise' },
+  { name: 'James T. Kirk', ship: 'USS Enterprise' },
   { name: 'Michael Burnham', ship: 'USS Discovery' },
   { name: 'Christopher Pike', ship: 'USS Discovery' },
   { name: 'Gabriel Lorca', ship: 'USS Discovery' },

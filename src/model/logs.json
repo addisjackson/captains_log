@@ -1836,7 +1836,7 @@
     ]
   },
   {
-    "captainName": "John T. Kirk",
+    "captainName": "James T. Kirk",
     "captainImage": "james_t_kirk.jpg",
     "shipName": "USS Enterprise",
     "shipImage": "USS_Enterprise.webp",
@@ -1846,7 +1846,7 @@
         "id": "james_t_kirk_1",
         "location": "Remus",
         "logTitle": "Crew Member Disciplined",
-        "logContent": "A crew member was disciplined for violating protocol. Captain John T. Kirk held a counseling session.",
+        "logContent": "A crew member was disciplined for violating protocol. Captain James T. Kirk held a counseling session.",
         "date": "2075-08-17",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19575
@@ -1855,7 +1855,7 @@
         "id": "james_t_kirk_2",
         "location": "Vega Colony",
         "logTitle": "Crew Member Returns from Leave",
-        "logContent": "A crew member returned from extended leave. Captain John T. Kirk welcomed them back aboard.",
+        "logContent": "A crew member returned from extended leave. Captain James T. Kirk welcomed them back aboard.",
         "date": "2075-08-18",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19576
@@ -1864,7 +1864,7 @@
         "id": "james_t_kirk_3",
         "location": "Tarchannen III",
         "logTitle": "Alien Virus Neutralized",
-        "logContent": "An alien virus was neutralized by medical staff. Captain John T. Kirk praised their quick action.",
+        "logContent": "An alien virus was neutralized by medical staff. Captain James T. Kirk praised their quick action.",
         "date": "2075-08-19",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19577
@@ -1873,7 +1873,7 @@
         "id": "james_t_kirk_4",
         "location": "Earth",
         "logTitle": "Alien Ambassador Onboard",
-        "logContent": "An alien ambassador boarded the USS Enterprise for negotiations. Captain John T. Kirk ensured their comfort.",
+        "logContent": "An alien ambassador boarded the USS Enterprise for negotiations. Captain James T. Kirk ensured their comfort.",
         "date": "2075-08-20",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19578
@@ -1882,7 +1882,7 @@
         "id": "james_t_kirk_5",
         "location": "Qo'noS",
         "logTitle": "New Warp Record Set",
-        "logContent": "The USS Enterprise set a new warp speed record. Captain John T. Kirk congratulated the engineering team.",
+        "logContent": "The USS Enterprise set a new warp speed record. Captain James T. Kirk congratulated the engineering team.",
         "date": "2075-08-21",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19579
@@ -1891,7 +1891,7 @@
         "id": "james_t_kirk_6",
         "location": "Rigel VII",
         "logTitle": "New Shuttlecraft Commissioned",
-        "logContent": "A new shuttlecraft was commissioned. Captain John T. Kirk attended the launch ceremony.",
+        "logContent": "A new shuttlecraft was commissioned. Captain James T. Kirk attended the launch ceremony.",
         "date": "2075-08-22",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19580
@@ -1900,7 +1900,7 @@
         "id": "james_t_kirk_7",
         "location": "Vega Colony",
         "logTitle": "Subspace Anomaly Investigation",
-        "logContent": "A subspace anomaly was detected. Captain John T. Kirk ordered a science team to investigate.",
+        "logContent": "A subspace anomaly was detected. Captain James T. Kirk ordered a science team to investigate.",
         "date": "2075-08-23",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19581
@@ -1909,7 +1909,7 @@
         "id": "james_t_kirk_8",
         "location": "Mars",
         "logTitle": "Crew Exchange Program",
-        "logContent": "A crew exchange program with another Federation ship began. Captain John T. Kirk welcomed new officers.",
+        "logContent": "A crew exchange program with another Federation ship began. Captain James T. Kirk welcomed new officers.",
         "date": "2075-08-24",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19582
@@ -1918,7 +1918,7 @@
         "id": "james_t_kirk_9",
         "location": "Bajor Wormhole",
         "logTitle": "Star Chart Updated",
-        "logContent": "The ship's star charts were updated with new data. Captain John T. Kirk reviewed the changes.",
+        "logContent": "The ship's star charts were updated with new data. Captain James T. Kirk reviewed the changes.",
         "date": "2075-08-25",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19583
@@ -1927,7 +1927,7 @@
         "id": "james_t_kirk_10",
         "location": "Nimbus III",
         "logTitle": "Crew Member Court-Martialed",
-        "logContent": "A crew member was court-martialed for misconduct. Captain John T. Kirk presided over the proceedings.",
+        "logContent": "A crew member was court-martialed for misconduct. Captain James T. Kirk presided over the proceedings.",
         "date": "2075-08-26",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19584
@@ -1936,7 +1936,7 @@
         "id": "james_t_kirk_11",
         "location": "New Vulcan",
         "logTitle": "Alien Infiltrator Exposed",
-        "logContent": "An alien infiltrator was exposed by security. Captain John T. Kirk led the debriefing.",
+        "logContent": "An alien infiltrator was exposed by security. Captain James T. Kirk led the debriefing.",
         "date": "2075-08-27",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19585
@@ -1945,7 +1945,7 @@
         "id": "james_t_kirk_12",
         "location": "Risa",
         "logTitle": "Crew Quarantine Lifted",
-        "logContent": "A shipwide quarantine was lifted after medical clearance. Captain John T. Kirk thanked the medical staff.",
+        "logContent": "A shipwide quarantine was lifted after medical clearance. Captain James T. Kirk thanked the medical staff.",
         "date": "2075-08-28",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19586
@@ -1954,7 +1954,7 @@
         "id": "james_t_kirk_13",
         "location": "Nimbus III",
         "logTitle": "Crew Member Wedding",
-        "logContent": "A wedding was held in the arboretum. Captain John T. Kirk officiated the ceremony.",
+        "logContent": "A wedding was held in the arboretum. Captain James T. Kirk officiated the ceremony.",
         "date": "2075-08-29",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19587
@@ -1963,7 +1963,7 @@
         "id": "james_t_kirk_14",
         "location": "Deep Space Nine",
         "logTitle": "Crew Exchange Program",
-        "logContent": "A crew exchange program with another Federation ship began. Captain John T. Kirk welcomed new officers.",
+        "logContent": "A crew exchange program with another Federation ship began. Captain James T. Kirk welcomed new officers.",
         "date": "2075-08-30",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19588
@@ -1972,7 +1972,7 @@
         "id": "james_t_kirk_15",
         "location": "Utopia Planitia",
         "logTitle": "Ion Storm Approaching",
-        "logContent": "An ion storm is approaching. Captain John T. Kirk ordered all decks to secure for heavy turbulence.",
+        "logContent": "An ion storm is approaching. Captain James T. Kirk ordered all decks to secure for heavy turbulence.",
         "date": "2075-08-31",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19589
@@ -1981,7 +1981,7 @@
         "id": "james_t_kirk_16",
         "location": "Remus",
         "logTitle": "Cargo Bay Fire",
-        "logContent": "A fire broke out in the cargo bay. Captain John T. Kirk coordinated firefighting efforts.",
+        "logContent": "A fire broke out in the cargo bay. Captain James T. Kirk coordinated firefighting efforts.",
         "date": "2075-09-01",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19590
@@ -1990,7 +1990,7 @@
         "id": "james_t_kirk_17",
         "location": "Utopia Planitia",
         "logTitle": "Nebula Survey Mission",
-        "logContent": "The USS Enterprise conducted a detailed survey of a nearby nebula. Captain John T. Kirk praised the science department for their thorough work.",
+        "logContent": "The USS Enterprise conducted a detailed survey of a nearby nebula. Captain James T. Kirk praised the science department for their thorough work.",
         "date": "2075-09-02",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19591
@@ -1999,7 +1999,7 @@
         "id": "james_t_kirk_18",
         "location": "Sector 001",
         "logTitle": "Crew Member Wedding",
-        "logContent": "A wedding was held in the arboretum. Captain John T. Kirk officiated the ceremony.",
+        "logContent": "A wedding was held in the arboretum. Captain James T. Kirk officiated the ceremony.",
         "date": "2075-09-03",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19592
@@ -2008,7 +2008,7 @@
         "id": "james_t_kirk_19",
         "location": "Tarchannen III",
         "logTitle": "Sensor Ghosts Detected",
-        "logContent": "Unexplained sensor ghosts appeared on long-range scans. Captain John T. Kirk ordered a full diagnostic.",
+        "logContent": "Unexplained sensor ghosts appeared on long-range scans. Captain James T. Kirk ordered a full diagnostic.",
         "date": "2075-09-04",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19593
@@ -2017,7 +2017,7 @@
         "id": "james_t_kirk_20",
         "location": "Ekos",
         "logTitle": "Shore Leave on Risa",
-        "logContent": "Crew morale was boosted by a brief shore leave on Risa. Captain John T. Kirk authorized recreational activities for all off-duty personnel.",
+        "logContent": "Crew morale was boosted by a brief shore leave on Risa. Captain James T. Kirk authorized recreational activities for all off-duty personnel.",
         "date": "2075-09-05",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19594
@@ -2026,7 +2026,7 @@
         "id": "james_t_kirk_21",
         "location": "Sigma Iotia II",
         "logTitle": "Diplomatic Incident on Bajor",
-        "logContent": "A diplomatic incident on Bajor required Captain John T. Kirk's intervention to prevent escalation.",
+        "logContent": "A diplomatic incident on Bajor required Captain James T. Kirk's intervention to prevent escalation.",
         "date": "2075-09-06",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19595
@@ -2035,7 +2035,7 @@
         "id": "james_t_kirk_22",
         "location": "Zeta Alpha",
         "logTitle": "Medical Supply Shortage",
-        "logContent": "A medical supply shortage required rationing. Captain John T. Kirk coordinated with Starfleet Command.",
+        "logContent": "A medical supply shortage required rationing. Captain James T. Kirk coordinated with Starfleet Command.",
         "date": "2075-09-07",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19596
@@ -2044,7 +2044,7 @@
         "id": "james_t_kirk_23",
         "location": "Ceti Alpha V",
         "logTitle": "Alien Virus Neutralized",
-        "logContent": "An alien virus was neutralized by medical staff. Captain John T. Kirk praised their quick action.",
+        "logContent": "An alien virus was neutralized by medical staff. Captain James T. Kirk praised their quick action.",
         "date": "2075-09-08",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19597
@@ -2053,7 +2053,7 @@
         "id": "james_t_kirk_24",
         "location": "Janus VI",
         "logTitle": "Ion Storm Approaching",
-        "logContent": "An ion storm is approaching. Captain John T. Kirk ordered all decks to secure for heavy turbulence.",
+        "logContent": "An ion storm is approaching. Captain James T. Kirk ordered all decks to secure for heavy turbulence.",
         "date": "2075-09-09",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19598
@@ -2062,7 +2062,7 @@
         "id": "james_t_kirk_25",
         "location": "Deep Space Twelve",
         "logTitle": "Plasma Leak in Engineering",
-        "logContent": "A plasma leak in engineering was quickly contained. Captain John T. Kirk praised the engineering team.",
+        "logContent": "A plasma leak in engineering was quickly contained. Captain James T. Kirk praised the engineering team.",
         "date": "2075-09-10",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19599
@@ -2071,7 +2071,7 @@
         "id": "james_t_kirk_26",
         "location": "Argelius II",
         "logTitle": "Rescue Operation at Cardassia",
-        "logContent": "A distress call from Cardassia prompted a rescue mission. Captain John T. Kirk led an away team to assist survivors.",
+        "logContent": "A distress call from Cardassia prompted a rescue mission. Captain James T. Kirk led an away team to assist survivors.",
         "date": "2075-09-11",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19600
@@ -2080,7 +2080,7 @@
         "id": "james_t_kirk_27",
         "location": "Breen Space",
         "logTitle": "Crew Member Recovered",
-        "logContent": "A missing crew member was recovered safely. Captain John T. Kirk commended the search team.",
+        "logContent": "A missing crew member was recovered safely. Captain James T. Kirk commended the search team.",
         "date": "2075-09-12",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19601
@@ -2089,7 +2089,7 @@
         "id": "james_t_kirk_28",
         "location": "Utopia Planitia",
         "logTitle": "Alien Technology Integrated",
-        "logContent": "Alien technology was integrated into the USS Enterprise's systems. Captain John T. Kirk oversaw the process.",
+        "logContent": "Alien technology was integrated into the USS Enterprise's systems. Captain James T. Kirk oversaw the process.",
         "date": "2075-09-13",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19602
@@ -2098,7 +2098,7 @@
         "id": "james_t_kirk_29",
         "location": "Deep Space Nine",
         "logTitle": "Alien Relic Discovered",
-        "logContent": "An alien relic was discovered on an away mission. Captain John T. Kirk ordered it brought aboard for study.",
+        "logContent": "An alien relic was discovered on an away mission. Captain James T. Kirk ordered it brought aboard for study.",
         "date": "2075-09-14",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19603
@@ -2116,7 +2116,7 @@
         "id": "james_t_kirk_31",
         "location": "Zeta Alpha",
         "logTitle": "Alien Delegation Arrives",
-        "logContent": "An alien delegation arrived for peace talks. Captain John T. Kirk welcomed them aboard the USS Enterprise.",
+        "logContent": "An alien delegation arrived for peace talks. Captain James T. Kirk welcomed them aboard the USS Enterprise.",
         "date": "2075-09-16",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19605
@@ -2125,7 +2125,7 @@
         "id": "james_t_kirk_32",
         "location": "Alpha Centauri",
         "logTitle": "Alien Technology Integrated",
-        "logContent": "Alien technology was integrated into the USS Enterprise's systems. Captain John T. Kirk oversaw the process.",
+        "logContent": "Alien technology was integrated into the USS Enterprise's systems. Captain James T. Kirk oversaw the process.",
         "date": "2075-09-17",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19606
@@ -2134,7 +2134,7 @@
         "id": "james_t_kirk_33",
         "location": "Sherman’s Planet",
         "logTitle": "Diplomatic Incident on Bajor",
-        "logContent": "A diplomatic incident on Bajor required Captain John T. Kirk's intervention to prevent escalation.",
+        "logContent": "A diplomatic incident on Bajor required Captain James T. Kirk's intervention to prevent escalation.",
         "date": "2075-09-18",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19607
@@ -2143,7 +2143,7 @@
         "id": "james_t_kirk_34",
         "location": "Deep Space Twelve",
         "logTitle": "Alien Pet Onboard",
-        "logContent": "A crew member adopted an alien pet. Captain John T. Kirk approved after a medical scan.",
+        "logContent": "A crew member adopted an alien pet. Captain James T. Kirk approved after a medical scan.",
         "date": "2075-09-19",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19608
@@ -2152,7 +2152,7 @@
         "id": "james_t_kirk_35",
         "location": "Nimbus III",
         "logTitle": "Crew Member Wedding",
-        "logContent": "A wedding was held in the arboretum. Captain John T. Kirk officiated the ceremony.",
+        "logContent": "A wedding was held in the arboretum. Captain James T. Kirk officiated the ceremony.",
         "date": "2075-09-20",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19609
@@ -2161,7 +2161,7 @@
         "id": "james_t_kirk_36",
         "location": "Vulcan Forge",
         "logTitle": "Alien Festival Celebrated",
-        "logContent": "The crew celebrated an alien festival. Captain John T. Kirk participated in the festivities.",
+        "logContent": "The crew celebrated an alien festival. Captain James T. Kirk participated in the festivities.",
         "date": "2075-09-21",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19610
@@ -2170,7 +2170,7 @@
         "id": "james_t_kirk_37",
         "location": "Earth",
         "logTitle": "Shore Leave on Risa",
-        "logContent": "Crew morale was boosted by a brief shore leave on Risa. Captain John T. Kirk authorized recreational activities for all off-duty personnel.",
+        "logContent": "Crew morale was boosted by a brief shore leave on Risa. Captain James T. Kirk authorized recreational activities for all off-duty personnel.",
         "date": "2075-09-22",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19611
@@ -2179,7 +2179,7 @@
         "id": "james_t_kirk_38",
         "location": "Delta Vega",
         "logTitle": "Borg Cube Encounter",
-        "logContent": "Sensors detected a Borg cube in the sector. Captain John T. Kirk initiated evasive maneuvers and prepared the USS Enterprise for possible engagement.",
+        "logContent": "Sensors detected a Borg cube in the sector. Captain James T. Kirk initiated evasive maneuvers and prepared the USS Enterprise for possible engagement.",
         "date": "2075-09-23",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19612
@@ -2188,7 +2188,7 @@
         "id": "james_t_kirk_39",
         "location": "Rura Penthe",
         "logTitle": "Crew Member Missing",
-        "logContent": "A crew member was reported missing. Captain John T. Kirk initiated a shipwide search.",
+        "logContent": "A crew member was reported missing. Captain James T. Kirk initiated a shipwide search.",
         "date": "2075-09-24",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19613
@@ -2197,7 +2197,7 @@
         "id": "james_t_kirk_40",
         "location": "Ceti Alpha V",
         "logTitle": "Medical Supply Shortage",
-        "logContent": "A medical supply shortage required rationing. Captain John T. Kirk coordinated with Starfleet Command.",
+        "logContent": "A medical supply shortage required rationing. Captain James T. Kirk coordinated with Starfleet Command.",
         "date": "2075-09-25",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19614
@@ -2206,7 +2206,7 @@
         "id": "james_t_kirk_41",
         "location": "Zeta Alpha",
         "logTitle": "Crew Talent Show",
-        "logContent": "A crew talent show was held to boost morale. Captain John T. Kirk participated as a judge.",
+        "logContent": "A crew talent show was held to boost morale. Captain James T. Kirk participated as a judge.",
         "date": "2075-09-26",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19615
@@ -2215,7 +2215,7 @@
         "id": "james_t_kirk_42",
         "location": "Argelius II",
         "logTitle": "Diplomatic Mission to Vulcan",
-        "logContent": "The USS Enterprise arrived at Vulcan for a high-level diplomatic summit. Captain John T. Kirk met with Vulcan officials to discuss Federation policy.",
+        "logContent": "The USS Enterprise arrived at Vulcan for a high-level diplomatic summit. Captain James T. Kirk met with Vulcan officials to discuss Federation policy.",
         "date": "2075-09-27",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19616
@@ -2224,7 +2224,7 @@
         "id": "james_t_kirk_43",
         "location": "Dytallix B",
         "logTitle": "Computer Core Upgrade",
-        "logContent": "The USS Enterprise's computer core was upgraded. Captain John T. Kirk oversaw the process to ensure security.",
+        "logContent": "The USS Enterprise's computer core was upgraded. Captain James T. Kirk oversaw the process to ensure security.",
         "date": "2075-09-28",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19617
@@ -2233,7 +2233,7 @@
         "id": "james_t_kirk_44",
         "location": "Gamma Quadrant",
         "logTitle": "Crew Talent Show",
-        "logContent": "A crew talent show was held to boost morale. Captain John T. Kirk participated as a judge.",
+        "logContent": "A crew talent show was held to boost morale. Captain James T. Kirk participated as a judge.",
         "date": "2075-09-29",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19618
@@ -2242,7 +2242,7 @@
         "id": "james_t_kirk_45",
         "location": "New Berlin",
         "logTitle": "Crew Member Disciplined",
-        "logContent": "A crew member was disciplined for violating protocol. Captain John T. Kirk held a counseling session.",
+        "logContent": "A crew member was disciplined for violating protocol. Captain James T. Kirk held a counseling session.",
         "date": "2075-09-30",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19619
@@ -2251,7 +2251,7 @@
         "id": "james_t_kirk_46",
         "location": "Utopia Planitia",
         "logTitle": "Sabotage Attempt Foiled",
-        "logContent": "A sabotage attempt was foiled by security. Captain John T. Kirk commended the quick response.",
+        "logContent": "A sabotage attempt was foiled by security. Captain James T. Kirk commended the quick response.",
         "date": "2075-10-01",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19620
@@ -2260,7 +2260,7 @@
         "id": "james_t_kirk_47",
         "location": "Orion",
         "logTitle": "Temporal Anomaly Detected",
-        "logContent": "A temporal rift appeared off the port bow. The USS Enterprise science team is investigating. Captain John T. Kirk has ordered yellow alert.",
+        "logContent": "A temporal rift appeared off the port bow. The USS Enterprise science team is investigating. Captain James T. Kirk has ordered yellow alert.",
         "date": "2075-10-02",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19621
@@ -2269,7 +2269,7 @@
         "id": "james_t_kirk_48",
         "location": "Vulcan",
         "logTitle": "Diplomatic Mission to Vulcan",
-        "logContent": "The USS Enterprise arrived at Vulcan for a high-level diplomatic summit. Captain John T. Kirk met with Vulcan officials to discuss Federation policy.",
+        "logContent": "The USS Enterprise arrived at Vulcan for a high-level diplomatic summit. Captain James T. Kirk met with Vulcan officials to discuss Federation policy.",
         "date": "2075-10-03",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19622
@@ -2278,7 +2278,7 @@
         "id": "james_t_kirk_49",
         "location": "The Badlands",
         "logTitle": "Ion Storm Approaching",
-        "logContent": "An ion storm is approaching. Captain John T. Kirk ordered all decks to secure for heavy turbulence.",
+        "logContent": "An ion storm is approaching. Captain James T. Kirk ordered all decks to secure for heavy turbulence.",
         "date": "2075-10-04",
         "mistakesWereMadeToday": true,
         "daysSinceLastCrisis": 19623
@@ -2287,7 +2287,7 @@
         "id": "james_t_kirk_50",
         "location": "New Berlin",
         "logTitle": "Alien Technology Integrated",
-        "logContent": "Alien technology was integrated into the USS Enterprise's systems. Captain John T. Kirk oversaw the process.",
+        "logContent": "Alien technology was integrated into the USS Enterprise's systems. Captain James T. Kirk oversaw the process.",
         "date": "2075-10-05",
         "mistakesWereMadeToday": false,
         "daysSinceLastCrisis": 19624

@@ -1,99 +1,84 @@
-// src/components/EditLogModal.jsx
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-const EditLogModal = ({ logData, onClose, onSave }) => {
-  const [logTitle, setLogTitle] = useState("");
-  const [logContent, setLogContent] = useState("");
-  const [location, setLocation] = useState("");
-  const [date, setDate] = useState("");
-  const [mistakesWereMadeToday, setMistakesWereMadeToday] = useState(false);
-  const [daysSinceLastCrisis, setDaysSinceLastCrisis] = useState(0);
+const normalizeCaptainName = (name = "") =>
+  name.toLowerCase().replace(/\s+/g, "_").replace(/-/g, "");
 
-  useEffect(() => {
-    if (logData) {
-      setLogTitle(logData.logTitle);
-      setLogContent(logData.logContent);
-      setLocation(logData.location);
-      setDate(logData.date);
-      setMistakesWereMadeToday(logData.mistakesWereMadeToday);
-      setDaysSinceLastCrisis(logData.daysSinceLastCrisis);
-    }
-  }, [logData]);
+const EditLogModal = ({ log, captain, onClose, onSave }) => {
+  const [logTitle, setLogTitle] = useState(log.logTitle || "");
+  const [logContent, setLogContent] = useState(log.logContent || "");
+  const [location, setLocation] = useState(log.location || "");
+  const [date, setDate] = useState(log.date || new Date().toISOString().slice(0, 10));
+  const [mistakesWereMadeToday, setMistakesWereMadeToday] = useState(log.mistakesWereMadeToday || false);
 
-  const handleSave = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     const updatedLog = {
-      ...logData,
+      ...log,
       logTitle,
       logContent,
       location,
       date,
       mistakesWereMadeToday,
-      daysSinceLastCrisis: Number(daysSinceLastCrisis),
     };
-
-    onSave(updatedLog);
+    onSave({ ...updatedLog, captainEntry: captain });
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-      <div className="bg-white p-6 rounded shadow-lg w-full max-w-lg space-y-4">
-        <h2 className="text-xl font-semibold">Edit Log</h2>
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div className="bg-white p-6 rounded w-full max-w-lg">
+        <h2 className="text-xl font-bold mb-4">Edit Log</h2>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+          <p><strong>Captain:</strong> {captain.captainName}</p>
+          <p><strong>Ship:</strong> {captain.shipName}</p>
 
-        <input
-          type="text"
-          placeholder="Log Title"
-          value={logTitle}
-          onChange={(e) => setLogTitle(e.target.value)}
-          className="border p-2 w-full rounded"
-        />
+          <label>
+            Log Title:
+            <input
+              type="text"
+              value={logTitle}
+              onChange={(e) => setLogTitle(e.target.value)}
+              className="border p-2 rounded w-full"
+            />
+          </label>
 
-        <input
-          type="text"
-          placeholder="Location"
-          value={location}
-          onChange={(e) => setLocation(e.target.value)}
-          className="border p-2 w-full rounded"
-        />
+          <label>
+            Location:
+            <input
+              type="text"
+              value={location}
+              onChange={(e) => setLocation(e.target.value)}
+              className="border p-2 rounded w-full"
+            />
+          </label>
 
-        <textarea
-          placeholder="Log Content"
-          value={logContent}
-          onChange={(e) => setLogContent(e.target.value)}
-          className="border p-2 w-full rounded"
-        />
+          <label>
+            Date:
+            <input
+              type="date"
+              value={date}
+              onChange={(e) => setDate(e.target.value)}
+              className="border p-2 rounded w-full"
+            />
+          </label>
 
-        <input
-          type="date"
-          value={date}
-          onChange={(e) => setDate(e.target.value)}
-          className="border p-2 w-full rounded"
-        />
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={mistakesWereMadeToday}
+              onChange={(e) => setMistakesWereMadeToday(e.target.checked)}
+            />
+            Mistakes Made Today
+          </label>
 
-        <input
-          type="number"
-          placeholder="Days Since Last Crisis"
-          value={daysSinceLastCrisis}
-          onChange={(e) => setDaysSinceLastCrisis(e.target.value)}
-          className="border p-2 w-full rounded"
-        />
-
-        <label className="flex items-center gap-2">
-          <input
-            type="checkbox"
-            checked={mistakesWereMadeToday}
-            onChange={(e) => setMistakesWereMadeToday(e.target.checked)}
-          />
-          Mistakes Made Today
-        </label>
-
-        <div className="flex justify-end gap-2 mt-2">
-          <button className="bg-gray-500 text-white px-4 py-2 rounded" onClick={onClose}>
-            Cancel
-          </button>
-          <button className="bg-green-500 text-white px-4 py-2 rounded" onClick={handleSave}>
-            Save
-          </button>
-        </div>
+          <div className="flex justify-end gap-3 mt-4">
+            <button type="button" onClick={onClose} className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400">
+              Cancel
+            </button>
+            <button type="submit" className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">
+              Save
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );

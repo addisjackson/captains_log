@@ -1,5 +1,5 @@
 // src/model/logStorage.js
-import logs from "../model/logs.json";
+import logsData from "./logs.json"; // ✅ plain array
 import { captainImages, shipImages } from "../assets/index.js";
 
 const STORAGE_KEY = "captainsLogs";
@@ -9,15 +9,15 @@ const defaultCaptainImage = "/images/captain.png";
 const defaultShipImage = "/images/ship.png";
 
 /**
- * Ensure each log has valid captain and ship images
+ * Ensure each captain object has valid images
  * @param {Array} logsArray
  * @returns {Array}
  */
 function sanitizeLogs(logsArray) {
-  return logsArray.map((log) => ({
-    ...log,
-    captainImage: captainImages[log.captain] || defaultCaptainImage,
-    shipImage: shipImages[log.ship] || defaultShipImage,
+  return logsArray.map((captain) => ({
+    ...captain,
+    captainImage: captainImages[captain.captainName] || defaultCaptainImage,
+    shipImage: shipImages[captain.shipName] || defaultShipImage,
   }));
 }
 
@@ -26,7 +26,7 @@ function sanitizeLogs(logsArray) {
  */
 export function initLogs() {
   if (!localStorage.getItem(STORAGE_KEY)) {
-    const sanitized = sanitizeLogs(logs);
+    const sanitized = sanitizeLogs(logsData);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(sanitized));
     console.log("Logs initialized in localStorage");
   }
@@ -57,7 +57,7 @@ function saveLogs(logsArray) {
  */
 export function addLog(captainName, newLog) {
   const allLogs = getLogs().map((captain) =>
-    captain.captain === captainName
+    captain.captainName === captainName
       ? { ...captain, logs: [...captain.logs, newLog] }
       : captain
   );
@@ -71,7 +71,7 @@ export function addLog(captainName, newLog) {
  */
 export function removeLog(captainName, logId) {
   const allLogs = getLogs().map((captain) =>
-    captain.captain === captainName
+    captain.captainName === captainName
       ? { ...captain, logs: captain.logs.filter((log) => log.id !== logId) }
       : captain
   );
@@ -85,7 +85,7 @@ export function removeLog(captainName, logId) {
  */
 export function updateLog(captainName, updatedLog) {
   const allLogs = getLogs().map((captain) =>
-    captain.captain === captainName
+    captain.captainName === captainName
       ? {
           ...captain,
           logs: captain.logs.map((log) =>
@@ -104,8 +104,16 @@ export function updateLog(captainName, updatedLog) {
  * @returns {Object|null}
  */
 export function showLog(captainName, logId) {
-  const captain = getLogs().find((c) => c.captain === captainName);
+  const captain = getLogs().find((c) => c.captainName === captainName);
   if (!captain) return null;
   const log = captain.logs.find((l) => l.id === logId);
   return log || null;
+}
+
+/**
+ * Refresh logs from localStorage
+ * @returns {Array}
+ */
+export function refreshLogs() {
+  return getLogs();
 }

@@ -2,9 +2,9 @@
 import Christopher_Pike from '../assets/Christopher_Pike.avif';
 import Elizabeth_Shelby from '../assets/Elizabeth_Shelby.avif';
 import Gabriel_Lorca from '../assets/Gabriel_Lorca.webp';
-import JeanLuc_Picard from '../assets/JeanLuc_Picard.jpg';
+import JeanLuc_Picard from '../assets/Jean-Luc_Picard.jpg';
 import John_Harriman from '../assets/John_Harriman.avif';
-import John_T_Kirk from '../assets/John_T_Kirk.jpg';
+import James_T_Kirk from '../assets/James_T_Kirk.jpg';
 import Jonathan_Archer from '../assets/Jonathan_Archer.jpg';
 import Kathryn_Janeway from '../assets/Kathryn_Janeway.jpg';
 import Michael_Burnham from '../assets/Michael_Burnham.webp';
@@ -24,7 +24,7 @@ import USS_Enterprise_B from '../assets/USS_Enterprise_B.webp';
 import USS_Voyager from '../assets/USS_Voyager.avif';
 import USS_Titan from '../assets/USS_Titan.jpg';
 import USS_Shenzhou from '../assets/uss_shenzhou.jpg';
-import USS_Enterprise_NX01 from '../assets/USS_Enterprise_NX01.webp';
+import USS_Enterprise_NX01 from '../assets/USS_Enterprise_NX01.jpg';
 import USS_Defiant from '../assets/USS_Defiant.jpg';
 
 // Support Images
@@ -42,7 +42,7 @@ import star_trek_captains5 from '../assets/star-trek-captains5.avif';
   'Gabriel Lorca': Gabriel_Lorca,
   'Jean-Luc Picard': JeanLuc_Picard,
   'John Harriman': John_Harriman,
-  'John T. Kirk': John_T_Kirk,
+  'James T. Kirk': James_T_Kirk,
   'Jonathan Archer': Jonathan_Archer,
   'Kathryn Janeway': Kathryn_Janeway,
   'Michael Burnham': Michael_Burnham,
@@ -90,6 +90,8 @@ import star_trek_captains5 from '../assets/star-trek-captains5.avif';
   'Seven of Nine',
   'William Riker',
 ];
+
+
 
 export  {
   captainImages,
