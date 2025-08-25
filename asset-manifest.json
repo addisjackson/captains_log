@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/captains-log/static/css/main.8a8eab89.css",
+    "main.js": "/captains-log/static/js/main.24c55b4d.js",
+    "static/media/Rachel_Garrett.webp": "/captains-log/static/media/Rachel_Garrett.d77646cf1beb646cc352.webp",
+    "static/media/Philippa_Georgiou.jpg": "/captains-log/static/media/Philippa_Georgiou.e06112aba88fe103cdac.jpg",
+    "static/media/star-trek-captains.webp": "/captains-log/static/media/star-trek-captains.10b66f8df4532d615bde.webp",
+    "static/media/USS_Defiant.jpg": "/captains-log/static/media/USS_Defiant.6cb9b0b20dba598c3011.jpg",
+    "static/media/USS_Enterprise_D.webp": "/captains-log/static/media/USS_Enterprise_D.068780370506c37410c0.webp",
+    "static/media/USS_Enterprise_B.webp": "/captains-log/static/media/USS_Enterprise_B.7987d452455fdb6a0de6.webp",
+    "static/media/uss_shenzhou.jpg": "/captains-log/static/media/uss_shenzhou.a5b2aadffc7e2bc71379.jpg",
+    "static/media/Star-Trek-captains2.avif": "/captains-log/static/media/Star-Trek-captains2.c034fedfa5d0c59df98e.avif",
+    "static/media/star-trek-captains5.avif": "/captains-log/static/media/star-trek-captains5.371c56ed4a88944fe28b.avif",
+    "static/media/Gabriel_Lorca.webp": "/captains-log/static/media/Gabriel_Lorca.63c072e5cf70e4fe0331.webp",
+    "static/media/USS_Discovery.webp": "/captains-log/static/media/USS_Discovery.6e15d5d96bc0af8a4c0b.webp",
+    "static/media/USS_Enterprise_NX01.jpg": "/captains-log/static/media/USS_Enterprise_NX01.6dd335d38b4700352cfd.jpg",
+    "static/media/James_T_Kirk.jpg": "/captains-log/static/media/James_T_Kirk.5b40027c9a2094006eb8.jpg",
+    "static/media/USS_Titan.jpg": "/captains-log/static/media/USS_Titan.9026845e83fedbebe841.jpg",
+    "static/media/Christopher_Pike.avif": "/captains-log/static/media/Christopher_Pike.8d2eecaf47606c2d704d.avif",
+    "static/media/Benjamin_Sisko.jpg": "/captains-log/static/media/Benjamin_Sisko.a5175b12bf9d922abb62.jpg",
+    "static/media/Star-trek-captains4.jpg": "/captains-log/static/media/Star-trek-captains4.18eb395da69babb9da96.jpg",
+    "static/media/Saru.avif": "/captains-log/static/media/Saru.8413c14067a76166d4b6.avif",
+    "static/media/USS_Voyager.avif": "/captains-log/static/media/USS_Voyager.8307da2d1151c01edfae.avif",
+    "static/media/star-trek-captains3.avif": "/captains-log/static/media/star-trek-captains3.428f4dcbc15dfe97d454.avif",
+    "static/media/USS_Sutherland.avif": "/captains-log/static/media/USS_Sutherland.835da7567f0a66243c54.avif",
+    "static/media/Jean-Luc_Picard.jpg": "/captains-log/static/media/Jean-Luc_Picard.0226dc68859beed87ab4.jpg",
+    "static/media/John_Harriman.avif": "/captains-log/static/media/John_Harriman.10188096518b45e13be9.avif",
+    "static/media/USS_Enterprise.webp": "/captains-log/static/media/USS_Enterprise.9138aa02c2e0031b1c66.webp",
+    "static/media/seven_of_nine.avif": "/captains-log/static/media/seven_of_nine.47abacab911604f8963d.avif",
+    "static/media/Michael_Burnham.webp": "/captains-log/static/media/Michael_Burnham.58daf8dabed3498fb2ea.webp",
+    "static/media/Elizabeth_Shelby.avif": "/captains-log/static/media/Elizabeth_Shelby.f3eec946ed34843eb111.avif",
+    "static/media/Kathryn_Janeway.jpg": "/captains-log/static/media/Kathryn_Janeway.7e05d8f32e4d1b250a14.jpg",
+    "static/media/Jonathan_Archer.jpg": "/captains-log/static/media/Jonathan_Archer.7d32d29efb4e425df77e.jpg",
+    "static/media/William_Riker.jpg": "/captains-log/static/media/William_Riker.ee3864e097cb8d4f5ca7.jpg",
+    "index.html": "/captains-log/index.html",
+    "main.8a8eab89.css.map": "/captains-log/static/css/main.8a8eab89.css.map",
+    "main.24c55b4d.js.map": "/captains-log/static/js/main.24c55b4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a8eab89.css",
+    "static/js/main.24c55b4d.js"
+  ]
+}
