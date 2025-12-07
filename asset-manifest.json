@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/captains_log/static/css/main.8a8eab89.css",
-    "main.js": "/captains_log/static/js/main.100fa93c.js",
+    "main.js": "/captains_log/static/js/main.dec0a108.js",
     "static/media/Rachel_Garrett.webp": "/captains_log/static/media/Rachel_Garrett.d77646cf1beb646cc352.webp",
     "static/media/Philippa_Georgiou.jpg": "/captains_log/static/media/Philippa_Georgiou.e06112aba88fe103cdac.jpg",
     "static/media/star-trek-captains.webp": "/captains_log/static/media/star-trek-captains.10b66f8df4532d615bde.webp",
@@ -34,10 +34,10 @@
     "static/media/William_Riker.jpg": "/captains_log/static/media/William_Riker.ee3864e097cb8d4f5ca7.jpg",
     "index.html": "/captains_log/index.html",
     "main.8a8eab89.css.map": "/captains_log/static/css/main.8a8eab89.css.map",
-    "main.100fa93c.js.map": "/captains_log/static/js/main.100fa93c.js.map"
+    "main.dec0a108.js.map": "/captains_log/static/js/main.dec0a108.js.map"
   },
   "entrypoints": [
     "static/css/main.8a8eab89.css",
-    "static/js/main.100fa93c.js"
+    "static/js/main.dec0a108.js"
   ]
 }
