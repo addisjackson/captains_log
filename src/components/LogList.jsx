@@ -244,6 +244,10 @@ const LogList = ({ filters = {}, onFilterChange = () => {} }) => {
             acc[e.captainName] = e.lastCrisisDate;
             return acc;
           }, {})}
+          captainData={logsWithDays.reduce((acc, e) => {
+            acc[e.captainName] = { shipName: e.shipName };
+            return acc;
+          }, {})}
         />
       )}
       {editingLog && editingCaptain && (

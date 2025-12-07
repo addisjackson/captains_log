@@ -59,7 +59,7 @@ const LogDetail = () => {
           </h2>
         </div>
 
-        <Link to="/" className="text-blue-600 hover:underline mb-6 inline-block">
+        <Link to="/captains_logs" className="text-blue-600 hover:underline mb-6 inline-block">
           ← Back to Logs
         </Link>
 

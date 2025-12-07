@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { initLogs, getLogs } from "./model/logStorage";
 import LogList from "./components/LogList";
 import LogDetail from "./components/LogDetail";
@@ -27,9 +27,12 @@ function App() {
     <>
       <div className="container mx-auto px-4 py-6">
         <Routes>
+          {/* Redirect root to /captains_logs */}
+          <Route path="/" element={<Navigate to="/captains_logs" replace />} />
+
           {/* Home: All Logs */}
           <Route
-            path="/"
+            path="/captains_logs"
             element={
               <LogList
                 logs={logs}

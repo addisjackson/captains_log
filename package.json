@@ -1,8 +1,8 @@
 {
-  "name": "captains_log",
+  "name": "captains_logs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://addisjackson.github.io/captains_log",
+  "homepage": "/captains_logs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -21,7 +21,7 @@
     "webpack": "^5.101.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS=--no-deprecation react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

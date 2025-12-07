@@ -1,12 +1,16 @@
 import React, { useState } from "react";
+import { addLog } from "../model/logStorage";
 
-const AddNewLogModal = ({ onClose, onSave, captains = [], lastCrisisDates = {} }) => {
+const AddNewLogModal = ({ onClose, onSave, captains = [], lastCrisisDates = {}, captainData = {} }) => {
   const [selectedCaptain, setSelectedCaptain] = useState(captains[0] || "");
-  const [shipName, setShipName] = useState("");
   const [logTitle, setLogTitle] = useState("");
+  const [logContent, setLogContent] = useState("");
   const [location, setLocation] = useState("");
   const [date, setDate] = useState(new Date().toISOString().slice(0, 10));
   const [mistakesWereMadeToday, setMistakesWereMadeToday] = useState(false);
+
+  // Auto-populate shipName based on selected captain
+  const shipName = captainData[selectedCaptain]?.shipName || "";
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,6 +19,7 @@ const AddNewLogModal = ({ onClose, onSave, captains = [], lastCrisisDates = {} }
     const newLog = {
       id: `${Date.now()}`, // unique ID
       logTitle,
+      logContent,
       location,
       date,
       mistakesWereMadeToday,
@@ -23,7 +28,10 @@ const AddNewLogModal = ({ onClose, onSave, captains = [], lastCrisisDates = {} }
         : 0,
     };
 
-    onSave(selectedCaptain, newLog);
+    // Save to localStorage and call the callback
+    addLog(selectedCaptain, newLog);
+    onSave();
+    onClose();
   };
 
   return (
@@ -49,8 +57,8 @@ const AddNewLogModal = ({ onClose, onSave, captains = [], lastCrisisDates = {} }
             <input
               type="text"
               value={shipName}
-              onChange={(e) => setShipName(e.target.value)}
-              className="border p-2 rounded w-full"
+              disabled
+              className="border p-2 rounded w-full bg-gray-100 cursor-not-allowed text-gray-700"
             />
           </label>
 
@@ -61,6 +69,16 @@ const AddNewLogModal = ({ onClose, onSave, captains = [], lastCrisisDates = {} }
               value={logTitle}
               onChange={(e) => setLogTitle(e.target.value)}
               className="border p-2 rounded w-full"
+            />
+          </label>
+
+          <label>
+            Log Content:
+            <textarea
+              value={logContent}
+              onChange={(e) => setLogContent(e.target.value)}
+              className="border p-2 rounded w-full h-24 resize-none"
+              placeholder="Enter the log content..."
             />
           </label>
 
