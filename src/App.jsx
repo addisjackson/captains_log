@@ -15,8 +15,6 @@ function App() {
     setLogs(getLogs());
   }, []);
 
-  const refreshLogs = () => setLogs(getLogs());
-
   const handleEditLog = (captainEntry, log) => {
     setEditingLog({ ...log, captainEntry });
   };

@@ -15,7 +15,6 @@ const AddNewLogModal = ({ onClose, onSave, captains = [], lastCrisisDates = {} }
     const newLog = {
       id: `${Date.now()}`, // unique ID
       logTitle,
-      logContent,
       location,
       date,
       mistakesWereMadeToday,
